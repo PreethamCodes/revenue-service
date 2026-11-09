@@ -1,0 +1,3 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:r="urn:mahasetu:revenue:v1"><s:Body>
+<s:Fault><s:Code><s:Value>s:Sender</s:Value></s:Code><s:Reason><s:Text xml:lang="en">Record missing</s:Text></s:Reason><s:Detail><r:ProviderFault><r:Code>RECORD_MISSING</r:Code><r:Category>MISSING</r:Category><r:Message>Record missing</r:Message><r:RequestReference>demo-001</r:RequestReference><r:Retryable>false</r:Retryable><r:Timestamp>2026-11-09T00:00:00Z</r:Timestamp></r:ProviderFault></s:Detail></s:Fault>
+</s:Body></s:Envelope>

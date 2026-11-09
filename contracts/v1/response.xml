@@ -1,0 +1,3 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:r="urn:mahasetu:revenue:v1"><s:Body>
+<r:GetStudentCertificatesResponse><r:StudentID>MHSTU0001</r:StudentID><r:RequestReference>demo-001</r:RequestReference><r:IncomeCertificate><r:ProviderRecordReference>income-1</r:ProviderRecordReference><r:CertificateStatus>VALID</r:CertificateStatus><r:IssueDate>2025-01-01</r:IssueDate><r:ExpiryDate>2027-01-01</r:ExpiryDate><r:AnnualIncomeINR>150000</r:AnnualIncomeINR></r:IncomeCertificate></r:GetStudentCertificatesResponse>
+</s:Body></s:Envelope>

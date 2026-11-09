@@ -1,0 +1,5 @@
+# Revenue SOAP 1.2
+
+Use the local revenue.wsdl and adjacent revenue.xsd. The planned provider publishes GET /soap/v1?wsdl and accepts POST /soap/v1 using application/soap+xml with the declared action. Use an actual document/literal SOAP binding (validated with Zeep). Phase 2 may use the prototype's explicit SOAP 1.2 endpoint with WSDL, XML Schema validation, Envelope/Body dispatch and standard SOAP Fault processing. Simulated HTTP Basic service authentication uses server-side credentials over TLS outside local development. No example contains credentials. Missing/invalid credentials receive HTTP 401 before dispatch.
+
+GetStudentCertificates retrieves a synthetic student's permitted income or caste record for a correlated request. Omit CertificateType only when both categories are permitted. Return the requested elements that exist; return a missing-record fault when none exist. Invalid input uses Sender; service faults use Receiver with retryability and timestamp in Detail. Income is annual INR; certificate dates and statuses belong to each certificate individually.
