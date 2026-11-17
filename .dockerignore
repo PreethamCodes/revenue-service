@@ -2,3 +2,9 @@
 !Dockerfile
 !config/
 !config/health.txt
+
+!requirements*.txt
+!app.py
+!runtime.py
+!contracts/
+!contracts/**
